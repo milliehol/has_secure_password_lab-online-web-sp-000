@@ -7,7 +7,7 @@ class SessionsController < ApplicationController
   redirect_to '/'
   end
   
-   def create
+   def post
         return redirect_to(controller: 'sessions',
                        action: 'new') if !params[:name] || params[:name].empty?
                        
