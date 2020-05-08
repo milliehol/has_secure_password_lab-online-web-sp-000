@@ -1,6 +1,6 @@
 class Users < ActiveRecord::Migration[5.0]
   def change
-     create_table :products do |t|
+     create_table :users do |t|
       t.string :name
     end
   end
